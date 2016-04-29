@@ -1,10 +1,17 @@
 #  Déployer [Ghost](https://github.com/TryGhost/Ghost) sur [Heroku](http://heroku.com)
 
 Ghost est un projet libre, une plateforme simple de blogging. Visitez le projet à l'adresse <http://ghost.org>, ou lisez la documentation sur <http://support.ghost.org>.
-Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
 
-## Deploying on Heroku
+Heroku est un hébergeur libre multiplateforme, performant, et gratuit. La plateforme Ghost utilise le système [node.js](https://nodejs.org/en/), réputé comme l'un des plus performant actuellement, et c'est pourquoi on ne peut pas héberger Ghost n'importe où.
 
+La limitation connue de l'hébergement gratuit sur Heroku est la suivantes : Le système n'est pas opérationnel 1 heure par 24 heures.
+
+
+## Déployer le blog sur Heroku
+
+Pour déployer le blog sur Heroku, veillez tout d'abord à créer un compte sur [Heroku](http://heroku.com), en choisissant le language de programmation "node.js"
+
+![signup](http://jr0cket.co.uk/heroku-workshop/images/heroku-signup-form.png)
 To get your own Ghost blog running on Heroku, click the button below:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bleucobalt/ghost-on-heroku)

@@ -4,7 +4,7 @@ Ghost est un projet libre, une plateforme simple de blogging. Visitez le projet 
 
 Heroku est un hébergeur libre multiplateforme, performant, et gratuit. La plateforme Ghost utilise le système [node.js](https://nodejs.org/en/), réputé comme l'un des plus performant actuellement, et c'est pourquoi on ne peut pas héberger Ghost n'importe où.
 
-La limitation connue de l'hébergement gratuit sur Heroku est la suivantes : Le système n'est pas opérationnel 1 heure par 24 heures.
+La limitation connue de l'hébergement gratuit sur Heroku est la suivante : Le système n'est pas opérationnel 1 heure par 24 heures.
 
 
 ## Déployer le blog sur Heroku
@@ -12,17 +12,19 @@ La limitation connue de l'hébergement gratuit sur Heroku est la suivantes : Le 
 Pour déployer le blog sur Heroku, veillez tout d'abord à créer un compte sur [Heroku](http://heroku.com), en choisissant le language de programmation "node.js"
 
 ![signup](http://jr0cket.co.uk/heroku-workshop/images/heroku-signup-form.png)
-To get your own Ghost blog running on Heroku, click the button below:
+
+Restez connecté à votre compte fraîchement créé, puis grâce à un nouvel onglet de votre navigateur, cliquez sur le bouton ci-dessous : 
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bleucobalt/ghost-on-heroku)
 
-Fill out the form, and you should be cooking with gas in a few seconds.
+Après quelques secondes, votre blog est déployé (avec le paramètres par défaut et en anglais de Ghost).
 
-### Things you should know
+### Les choses à savoir
 
-- After deployment, visit the admin area at `YOURAPPNAME.herokuapp.com/ghost` to set up your blog.
+- Après le déployment de votre application, visitez la page d'administration du blog `YOURAPPNAME.herokuapp.com/ghost` pour configurer le blog.
 
-- Your blog will be publicly accessible at `YOURAPPNAME.herokuapp.com`.
+- Votre blog sera publié et accessible à l'adresse `YOURAPPNAME.herokuapp.com`.
 
 - To make changes to your Ghost blog (like adding a theme to the `/content` directory, for instance), clone your blog locally using the [Heroku Toolbelt](https://toolbelt.heroku.com/):
 

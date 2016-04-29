@@ -1,5 +1,6 @@
-# [Ghost](https://github.com/TryGhost/Ghost) on [Heroku](http://heroku.com)
+#  Déployer [Ghost](https://github.com/TryGhost/Ghost) sur [Heroku](http://heroku.com)
 
+Ghost est un projet libre, une plateforme simple de blogging. Visitez le projet à l'adresse <http://ghost.org>, ou lisez la documentation sur <http://support.ghost.org>.
 Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
 
 ## Deploying on Heroku
